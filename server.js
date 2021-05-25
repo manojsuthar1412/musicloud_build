@@ -316,7 +316,7 @@ app.get("/upload", async (req, res) => {
       // console.log(`Successfully upload ${req.query.name}`);
       setTimeout(() => {
         res.json(`Successfully uploaded`);
-      }, 25000);
+      }, 15000);
     })
     .catch((err) => console.log("Error in uploading: ", err));
   setTimeout(() => {

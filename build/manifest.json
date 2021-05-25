@@ -8,17 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "black_logo192x192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "black_logo512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://test-musicloud.herokuapp.com/",
   "display": "standalone",
   "theme_color": "#00838f",
   "background_color": "#ffffff"
